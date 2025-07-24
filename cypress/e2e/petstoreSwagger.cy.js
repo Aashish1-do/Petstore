@@ -1,4 +1,4 @@
-describe('Verify petstore application can be login successfully', () => {
+describe('Verify petstore application can be sign up successfully', () => {
 
   beforeEach(() => {
     Cypress.on("uncaught:exception", () => false);
