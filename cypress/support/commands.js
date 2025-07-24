@@ -72,3 +72,8 @@ cy.get('input[name="keyword"]').clear().type("dog");
 cy.get('input[name="searchProducts"]').click();
 cy.contains('a', 'Return to Main Menu').click();
 })
+
+Cypress.Commands.add("Signingmodule", () => {
+cy.get('a[href="https://app.reqres.in"]').click();
+cy.get('a.nav-link.active[href="/visualize"]').click();
+})
